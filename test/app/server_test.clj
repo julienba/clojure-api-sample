@@ -1,7 +1,10 @@
 (ns app.server-test
   (:require [clojure.test :refer :all]
             [app.server :refer :all]
-            [app.config :as config]))
+            [app.config :as config]
+            [mount.core :as mount]))
+
+(use-fixtures :once (mount/start))
 
 (def app (build-app config/config))
 
