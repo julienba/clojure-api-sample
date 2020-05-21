@@ -1,0 +1,2 @@
+{:lint-as {mount.core/defstate clojure.core/def}
+ :linters {:unresolved-symbol {:exclude [(mount.core/defstate)]}}}

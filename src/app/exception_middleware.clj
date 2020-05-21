@@ -1,6 +1,5 @@
 (ns app.exception-middleware
   (:require [reitit.ring.middleware.exception :as exception]
-            [ring.adapter.jetty :as jetty]
             [taoensso.timbre :as log]))
 
 (defn wrap-exception [handler ^Throwable e request]
