@@ -1,4 +1,6 @@
-An example of how to write a clojure API
+An example of how to write a Clojure API using reitit and mount.
+
+Companion project of [this blog post](https://medium.com/@_jba/setting-up-a-clojure-web-api-6bda099e76e8).
 
 ## Usage
 To start the repl and developing:
